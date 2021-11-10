@@ -1,127 +1,160 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>myportfolio</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-  rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property='og:type' content='website'>
+  <title>ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
 </head>
+
 <body>
-  <span class="material-icons" id=open>
-    menu
-    </span>
-    <div class=spmenu>
-      <span class="material-icons" id=close>
-        close
-        </span>
-      <nav>
-        <ul>
-          <li><a href="">WORKS</a></li>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">CONTACT</a></li>
-        </ul>
-      </nav>
-    </div>
-    <section class=mainvisual>
-      <div class=img>
-        <img src="img/swan-gae869c3a4_1920.jpg" alt="">
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href=".">PORTFOLIO</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
+            <li class="gnav-item"><a href="#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
       </div>
-      <h1>My Portfolio</h1>
-    </section>
-    <section class=works>
-      <h1>Works</h1>
-      <ul>
-        <li class=art data-id="ken"> <img src="img/スクリーンショット 2021-10-25 150314.png"  alt="" ></li>
-        <li class=art  data-id="1"><img src="img/スクリーンショット 2021-10-31 134024.png" alt="" ></li>
-        <li class=art data-id="2"><img src="img/background-g29e14d502_1280.png" alt="" ></li>
-        <li class=art data-id="3"><img src="img/background-g29e14d502_1280.png" alt="" ></li>
-        <li class=art data-id="4"><img src="img/background-g29e14d502_1280.png" alt=""  ></li>
-        <li class=art data-id="5"><img src="img/background-g29e14d502_1280.png" alt=""  ></li>
-      </ul>
-    </section>
-    <div class=koko id=ken>
-      <a href="https://myokao.github.io/kentiku/"><img src="img/スクリーンショット 2021-10-25 150314.png"  alt=""></a>
-      <h2>建築</h2>
-      <p>インターネットで見つけた架空の建築会社のホームページを模写しました。はじめてjavascriptを取り入れたサイトを作りました。</p>
-      <span class="material-icons" id=closeko data-id="ken">
-        close
-        </span>
-    </div>
-    <div class=koko id=1>
-      <a href="https://myokao.github.io/haisya/"><img src="img/スクリーンショット 2021-10-31 134024.png"  alt=""></a>
-      <h2>テキスト</h2>
-      <p>歯医者のホームページを模写しました。ホームページ以外のところも作りました。
-      </p>
-      <span class="material-icons" id=closeko data-id="1">
-        close
-        </span>
-    </div>
-    <div class=koko id=2>
-      <img src="img/background-g29e14d502_1280.png"  alt="">
-      <h2>テキスト</h2>
-      <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-      <span class="material-icons" id=closeko data-id="2">
-        close
-        </span>
-    </div>
-    <div class=koko id=3>
-      <img src="img/background-g29e14d502_1280.png"  alt="">
-      <h2>テキスト</h2>
-      <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-      <span class="material-icons" id=closeko data-id="3">
-        close
-        </span>
-    </div>
-    <div class=koko id=4>
-      <img src="img/background-g29e14d502_1280.png"  alt="">
-      <h2>テキスト</h2>
-      <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-      <span class="material-icons" id=closeko data-id="4">
-        close
-        </span>
-    </div>
-    <div class=koko id=5>
-      <img src="img/background-g29e14d502_1280.png"  alt="">
-      <h2>テキスト</h2>
-      <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-      <span class="material-icons" id=closeko data-id="5">
-        close
-        </span>
-    </div>
-    <section class=about>
-      <h1>About</h1>
-      <div>
-        <img src="img/スクリーンショット 2021-10-26 131458.png" alt="">
-          <p>21歳大学生</br>北海道在住</br></br>
-            大学の授業が落ち着いた時期なので自分のスキルを磨こうと思い2021年9月からプログラミングの勉強を始めました。</br>
-            html/css/javascriptを勉強し、これからwordpressを始めて行こうと思います。今は経験のために初案件を受注できるように日々精進しております。
-            みなさまよろしくお願いいたします。
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- mv -->
+      <div class="mv">
+        <div class="mv-container">
+          <p class="mv-title">PORTFOLIO</p>
+        </div>
+      </div>
+      <!-- /mv -->
+
+      <!-- works -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="s"><path fill="#f3ecec" fill-opacity="1" d="M0,224L60,240C120,256,240,288,360,272C480,256,600,192,720,186.7C840,181,960,235,1080,245.3C1200,256,1320,224,1380,208L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+      <section class="works section" id="works">
+        <div class="container">
+          <h2 class="title">WORKS</h2>
+          <div class="works-list">
+            <a class="works-item" href="https://myokao.github.io/kentiku/">
+              <div class="works-img"><img src="img/スクリーンショット 2021-10-25 150314.png" alt="" /></div>
+              <div class="works-text">
+                <p class="works-name">建築会社</p>
+                <p class="works-info">建築会社のサイトを模写しました。この模写ではマウスホバー時のいろんなタイプのアニメーションやcss
+                での図形の作り方などを学べました。背景を最初は動画だったのを途中から普通の白い背景に切り替えるのに苦労しました。やり方を思いついたときは本当に簡単な事だったのでなにをこんなに悩んでいたのだろうと落胆しました（笑）
+                </p>
+              </div>
+            </a>
+            <a class="works-item" href="https://myokao.github.io/haisya/">
+              <div class="works-img"><img src="img/スクリーンショット 2021-10-31 134024.png" alt="" /></div>
+              <div class="works-texteve">
+                <p class="works-name">歯医者</p>
+                <p class="works-info">歯医者のサイトを模写して見ました。こちらの模写は他に比べてスムーズにコーディングする事が出来ました。トップページ以外の所を作るのが始めてだったので不安があったのですが問題なく進みました。グーグルマップの埋め込みなどを学べたので良かったです。</p>
+              </div>
+            </a>
+            <a class="works-item" href="">
+              <div class="works-img"><img src="img/スクリーンショット 2021-11-09 135807.png" alt="" /></div>
+              <div class="works-text">
+                <p class="works-name">DIGSMILE</p>
+                <p class="works-info">このサイトは個人的にデザインが複雑に感じたのですがすごく新鮮で楽しくコーディング出来ました。画像などの位置を調整するのに苦労しました。コンタクトフォームを作るのが初の試みで緊張しました。本格的なレスポンシブ対応にもチャレンジしました。タブレット用とモバイル端末ようにブレイクポイントを二つ作りました。</p>
+              </div>
+            </a>  
+          </div>
+        </div>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3ecec" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,133.3C384,149,480,203,576,208C672,213,768,171,864,149.3C960,128,1056,128,1152,122.7C1248,117,1344,107,1392,101.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="container">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-html-48.png" alt="" class=cs></p>
+              <div class="skill-body">
+                <h3 class="skill-name">HTML5/CSS3</h3>
+                <p class="skill-text">
+                  ドットインストールで勉強したあと、模写でコーディング練習を行ってきました。レスポンシブ対応も出来ます。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/icons8-js-48.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">JavaScript</h3>
+                <p class="skill-text">
+                  こちらもドットインストールで勉強した後に模写で練習しました。</p>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- about -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"class="s"><path fill="#f3ecec" fill-opacity="1" d="M0,256L48,224C96,192,192,128,288,122.7C384,117,480,171,576,176C672,181,768,139,864,128C960,117,1056,139,1152,170.7C1248,203,1344,245,1392,266.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/スクリーンショット 2021-10-26 131458.png" alt="">
+            </p>
+            <div class="profile-body">
+              <p>
+                大学生</br></br>
+                北海道在住</br></br>
+                大学の授業が落ち着いた時期なので自分のスキルを磨こうと思い月に5万円を稼ぐことを目標に2021年9月からプログラミングの勉強を始めました。大学卒業と同時にweb製作会社等に就職しそこで実務経験を積み最終的にはフリーランスで活動していきたいと考えています。</br>
+                今は自分のポートフォリオが出来たところで本格的に案件を受注できるようにするために行動していこうと考えています。コーディング案件やLP製作などのお仕事お待ちしております。受注したからには全力で取り組んでいきます。
+                みなさまよろしくお願いいたします。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。
           </p>
+          <div class="contact-list">
+            <a class="contact-item" href="https://twitter.com/OpgyK5a5Ed0a440" target="_blank" rel="noopener">Twitter</a>
+            <span class="contact-item">west.lv411@gmail.com</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
       </div>
-    </section>
-    <section class=contact>
-      <h1>Contact</h1>
-      <p>お気軽にお問い合わせください。</p>
-      <div>
-       
-          <a href="https://twitter.com/OpgyK5a5Ed0a440"><p>twitter</p></a>
-        
-          <span class="material-icons" id=mail>
-            mail
-            </span><p>west.lv411@gmail.com</p>
-      </div>
-    </section>
-    <footer>
-      <p>©My Portfolio</p>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;PORTFOLIO</div>
     </footer>
-    <script src="js/main.js"></script>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
